@@ -18,7 +18,7 @@ My name is Cynthia Saturnino dos Santos and I received this challenge link from 
         	,uf varchar(2)
         	,product varchar(100)
         	,unit varchar(15)
-        	,volume float
+        	,volume decimal(21,5)
         	,created_at datetime
         	,primary key (yearmonth, uf, product)
         );
@@ -28,7 +28,7 @@ My name is Cynthia Saturnino dos Santos and I received this challenge link from 
         	,uf varchar(2)
         	,product varchar(100)
         	,unit varchar(15)
-        	,volume float
+        	,volume decimal(21,5)
         	,created_at datetime
         	,primary key (yearmonth, uf, product)
         );
